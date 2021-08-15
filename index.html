@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Formulário -Inscrição currículos</title>
+		<meta charset="utf-8">
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+	  <link rel="stylesheet" href="estilo.css">
+	</head>
+	<body id="fundoSite">
+		<img src="img/logo.png" id="imgIcone">
+		<img src = "img/icone.png" id="imgLogo">
+		<div id="fundoBranco">
+			<div id="fundoPreto">
+					<h1 id="titulo1">CADASTRO DE CURRÍCULO</h1>
+			</div>
+			<br>
+			<form>
+				<b style="padding-left: 60px;">Dados pessoais:</b>
+					<input type="text" name="nome" style="width: 210px; height: 40px; margin-left: 1%;
+					background-color: #DCDCDC; border-radius: 5px; border: thin;">
+				  <input type="date" name="data" style="margin-left: 1em; height: 40px;
+					border: thin; background-color: #DCDCDC; border-radius: 5px;">
+					<br>
+				  <i id="textoNome" style="padding-left: 14em; font-style: normal; font-size: 16px; ">Nome completo</i>
+					<i id="dataNasci" style="padding-left: 5em; font-style: normal; font-size: 16px">Data de nascimento</i>
+					<br>
+					<input type="text" name="logradouro" style="width: 28em; height: 40px; margin-left: 25%;
+				background-color: #DCDCDC; border-radius: 5px; border: thin;">
+					<br>
+					<i style="font-style: normal; font-size: 16px; padding-left:
+				  16em;">Logradouro</i>
+				    <br>
+				    <input type="text" name="rg" style="width: 250px; height: 40px; margin-left: 25%;
+					background-color: #DCDCDC; border-radius: 5px; border: thin;">
+				  <input type="text" name="cpf" style="width: 210px; height: 40px; margin-left: 1%;
+					background-color: #DCDCDC; border-radius: 5px; border: thin;">
+					<br>
+					<i style="font-style: normal; font-size: 16px; padding-left:
+				16em;">RG</i>
+				<i style="font-style: normal; font-size: 16px; padding-left:
+			16em;">CPF</i>
+			<br>
+			<select style="width: 28em; height: 40px; margin-left: 25%;
+		background-color: #DCDCDC; border-radius: 5px; border: thin;">
+				  <option>Solteiro (a)</option>
+					<option>Casado (a)</option>
+					<option>Viúvo (a)</option>
+					<option>Divorciado (a)</option>
+			</select>
+			<br>
+			<label for="contatos"><b style="padding-left: 60px;">Contatos</b></label>
+			<input type="email" name="contatos" style="width: 28em; height: 40px; margin-left: 5%;
+		background-color: #DCDCDC; border-radius: 5px; border: thin; margin-top: 3%;">
+		<i style="font-style: normal; font-size: 16px; padding-left:
+	  11em;">E-mail</i>
+		<br>
+		<input type="text" style="width: 9em; height: 40px; margin-left: 10em;
+		background-color: #DCDCDC; border-radius: 5px; border: thin; margin-top: 3%;">
+		<input type="tel"style="width: 19em; height: 40px; margin-left: 1%;
+		background-color: #DCDCDC; border-radius: 5px; border: thin;">
+	  <br>
+		<i style="font-style: normal; font-size: 16px; padding-left:
+		11em;">DDD</i>
+		<i style="font-style: normal; font-size: 16px; padding-left:
+		11em;">Telefone</i>
+		<br>
+		<div id="Radios">
+			<b style="padding-left: 60px;">Tem filhos? </b>
+			<input type="radio"  name="filhos" style="margin-left: 10px;" name="filhos" checked="true">
+			<label for="radioOp1">Sim</label>
+			<br>
+			<input type="radio"  name="filhos" style="
+			margin-left: 10em;">
+			<label for="radioOp1">Não</label>
+			<br>
+			<div class="mx-5 px-3">
+				<b>Carteira de
+					 <br>Habilitação</b>
+				</b>
+				<br>
+				<input type="radio" name="radioOp">
+				<label for="radioOp">A</label>
+				<br>
+				<input type="radio" name="radioOp" style="background-color: green;" name="carteira">
+				<label for="radioOp">B</label>
+			</div>
+		</div>
+		<br>
+		<div class="mx-5 ">
+				<b class="mx-2">Sexo:</b>
+				<label class="checkbox-inline" for="checkbox1">
+				 		<input type="checkbox" name="checkbox1">
+		    		Masculino
+				</label>
+				<label class="checkbox-inline" for="checkbox2">
+				 		<input type="checkbox" name="checkbox2">
+		    		Feminino
+				</label>
+				<label class="checkbox-inline" for="checkbox3">
+				 		<input type="checkbox" name="checkbox3">
+		    		Outro
+				</label>
+		</div>
+		<br>
+		<div class="mx-5">
+			<b class="mx-2">Tipo de sangue:</b>
+      <select multiple="" class="form-control">
+				  <option>Tipo A</option>
+					<option>Tipo A-</option>
+      	  <option>Tipo B</option>
+					<option>Tipo B-</option>
+					<option>Tipo AB</option>
+					<option>Tipo AB-</option>
+					<option>Tipo O</option>
+					<option>Tipo O-</option>
+					<option>Tipo Rh</option>
+					<option>Tipo Rh+</option>
+					<option>Tipo Rh-</option>
+      </select>
+		</div>
+		<br>
+		<b>Uma brincadeira: </b>
+	  <input type="radio" name="empresa">
+		<label for="empresa">Sony</label>
+		<input type="radio" name="empresa">
+	 <label for="empresa">Microsoft</label>
+	 <br>
+	 <b>Diga para nós o que você achou do formulário</b>
+	 <br>
+	 <textarea rows="6" cols="60" class="mx-2"></textarea>
+	 <br>
+	 <button type="submit" class="btn btn-danger">CADASTRAR</button>
+			</form>
+		</div>
+	</body>
+</html>
